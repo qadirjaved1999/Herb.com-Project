@@ -1,0 +1,81 @@
+.HomeBtns {
+  display: inline-flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0px 24px;
+  width: 100%;
+  max-width: 65%;
+}
+.HomeBtns li {
+  list-style: none;
+}
+.HomeBtns ul {
+  padding: 0px 0px 0px 20px;
+}
+.HerbWeedHeading {
+  width: 100%;
+  max-width: 73%;
+}
+.HerbWeedHeading h1 {
+  color: #daf98c;
+  font-family: Neue Machina;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+}
+/* *************************************************************************************************************************** */
+/* HOME MEDIA QUERY */
+/* *************************************************************************************************************************** */
+
+@media screen and (max-width: 1270px) {
+  .HomeBtns {
+    max-width: 100%;
+  }
+  .HOW-TOS {
+    padding-left: 15px;
+  }
+  .ProductBtn {
+    padding-left: 15px;
+  }
+  .DealsBtn {
+    padding-left: 15px;
+  }
+  .strainsBtn {
+    padding-left: 15px;
+  }
+  .GuidBtn {
+    padding-left: 15px;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .HomeBtns {
+    display: inline-block;
+    max-width: 1400pxpx;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+  .HomeBtns li {
+    display: inline-block;
+  }
+}
+@media screen and (max-width: 868px) {
+  .HomeBtns {
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 845px) {
+  .strainsBtn {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 717px) {
+  .GuidBtn {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 698px) {
+  .HomeBtns {
+    padding: 0px 0px 20px 0px;
+  }
+}

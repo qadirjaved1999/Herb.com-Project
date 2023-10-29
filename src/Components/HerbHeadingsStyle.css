@@ -1,0 +1,52 @@
+* {
+  font-family: "myFont";
+}
+@font-face {
+  font-family: "myFont";
+  src: url("../Fonts/NeueMachina-Light.otf") format("opentype");
+}
+
+.HerbWeedHeading h1 {
+  font-family: "myFont";
+}
+@media screen and (max-width: 1270px) {
+  .HerbWeedHeading h1 {
+    font-size: 95px !important;
+    max-width: 100%;
+  }
+}
+@media screen and (max-width: 945px) {
+  .HerbWeedHeading h1 {
+    font-size: 76px !important;
+    max-width: 750px;
+  }
+}
+@media screen and (max-width: 868px) {
+  .HerbWeedHeading h1 {
+    font-size: 76px !important;
+    max-width: 736px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .HerbWeedHeading h1 {
+    font-size: 70px !important;
+    max-width: 663px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .HerbWeedHeading h1 {
+    font-size: 47px !important;
+    max-width: 462px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .HerbWeedHeading h1 {
+    font-size: 30px !important;
+    max-width: 300px;
+  }
+}
+/* @media screen and (max-width: 330px) {
+  .HerbWeedHeading h1 {
+    font-size: 25px !important;
+  }
+} */

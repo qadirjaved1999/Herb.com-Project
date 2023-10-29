@@ -1,0 +1,114 @@
+.MainDivOfSlider {
+  margin-top: 40px;
+  margin-bottom: 130px;
+}
+.carousel-images {
+  width: 100%;
+  margin-bottom: 120px;
+}
+.slidePictureofHerbDeals {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slick-prev::before,
+.slick-next::before {
+  display: none;
+}
+.slick-arrow.slick-prev,
+.slick-arrow.slick-next {
+  background: #595959;
+  width: 48px;
+  height: 36px;
+  border-radius: 21px;
+  z-index: 1;
+}
+/* .slick-arrow.slick-next {
+  background: #595959;
+  width: 48px;
+  height: 36px;
+  border-radius: 21px;
+} */
+.SlideDescription {
+  color: #fff;
+  text-align: center;
+  font-family: Neue Machina;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  padding: 20px 20px;
+}
+.slideBtnDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slick-prev {
+  top: 38% !important;
+  left: 6px !important;
+}
+/* *************************************************************************************************************************** */
+/* NAVBAR MEDIA QUERY */
+/* *************************************************************************************************************************** */
+/* @media screen and (max-width: 1340px) {
+  .carousel-images {
+    width: 90%;
+  }
+  .slick-next {
+    right: -17px !important;
+  }
+}
+@media screen and (max-width: 1276px) {
+  .slick-next {
+    right: -56px !important;
+  }
+}
+@media screen and (max-width: 1190px) {
+  .slick-next {
+    right: 96px !important;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .slick-next {
+    right: 30px !important;
+    top: 38% !important;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .slick-next {
+    right: 8px !important;
+  }
+}
+@media screen and (max-width: 788px) {
+  .slick-next {
+    right: 0px !important;
+  }
+}
+@media screen and (max-width: 830px) {
+  .carousel-images {
+    width: 100%;
+    padding: 0px 0px 0px 44px;
+  }
+}
+@media screen and (max-width: 630px) {
+  .carousel-images {
+    width: 80%;
+    padding: 0px 0px 0px 130px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .carousel-images {
+    width: 82%;
+    padding: 0px 0px 0px 36px;
+  }
+}
+@media screen and (max-width: 444px) {
+  .carousel-images {
+    width: 100%;
+    padding: 0px 0px 0px 36px;
+  }
+} */

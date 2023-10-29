@@ -1,0 +1,190 @@
+.weed_products_slides_container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  /* width: 100%; */
+  max-width: 1280px;
+}
+
+.weedslide_content {
+  width: 180px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px 0px;
+  margin-left: 40px;
+}
+.weed-product-heading {
+  color: #fcc;
+  width: 598px;
+  font-family: "Neue Machina";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  padding: 60px 0px 60px 100px;
+}
+.weedproduct-parent-div {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* .slick-slider .slick-initialized {
+  padding-left: 48px;
+} */
+.weed_deal_slider_anchar {
+  display: flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  color: #daf98c;
+  border-radius: 21px;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+.dealsStrainHeading {
+  color: #fcc;
+  width: 598px;
+  font-family: Neue Machina;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  padding: 60px 0px 60px 100px;
+}
+.deals_images {
+  display: flex;
+  width: 179px;
+  padding: 17px 22.5px 7px 22.5px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  background: radial-gradient(50% 50% at 50% 50%, #ff6b6b 0%, #3041ff 100%),
+    #3041ff;
+}
+.dealPics {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 780px;
+  padding: 0px 0px 0px 100px;
+}
+.dealBtnMainDiv {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+.dealBtn1 {
+  display: flex;
+  justify-content: center;
+  width: 179px;
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  margin: 20px 0px 0px 55px;
+}
+.dealBtn2 {
+  display: flex;
+  justify-content: center;
+  width: 179px;
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  margin: 20px 35px 0px 0px;
+}
+.dealBtn3 {
+  display: flex;
+  justify-content: center;
+  width: 179px;
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  margin-top: 20px;
+  margin: 20px 35px 0px 0px;
+}
+.Indica {
+  color: #daf98c;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+.sativa {
+  color: #daf98c;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 114.286% */
+  letter-spacing: 0.28px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+.hybrid {
+  color: #daf98c;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px; /* 114.286% */
+  letter-spacing: 0.28px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+.slick-next {
+  right: 4px !important;
+}
+.slick-next {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 38% !important;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+/* *************************************************************************************************************************** */
+/* WEED PRODUCT MEDIA QUERY */
+/* *************************************************************************************************************************** */
+@media screen and (max-width: 868px) {
+  .weed-product-heading {
+    padding: 60px 0px 60px 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .weedslide_content {
+    margin-left: 135px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .weedslide_content {
+    margin-left: 50px;
+  }
+}
+/* @media screen and (max-width: 476px) {
+  .weed_products_slides_images {
+    width: 58%;
+    margin-left: 151px;
+  }
+} */

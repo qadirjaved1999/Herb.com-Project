@@ -1,0 +1,141 @@
+.dispensarySlider {
+  margin-top: 40px;
+  margin-bottom: 120px;
+}
+.first_slide_of_dispensarySlider {
+  width: 100%;
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0px 24px;
+}
+.first_image {
+  width: 40%;
+  height: 258px;
+  border-radius: 16px;
+  background-image: url("../Assets/backgroundbuyget.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* position: relative; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+}
+.firstPictureContentDiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.content {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.edie-parker {
+  width: 130px;
+  height: 19px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.BuyOneGetTwo {
+  width: 204px;
+  height: 124px;
+  color: #daf98c;
+  font-family: Neue Machina;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.Herb_2023 {
+  width: 155px;
+  height: 19px;
+  color: #f5f5f5;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 40px;
+}
+.innerContentImg {
+  width: 210px;
+  height: 210px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  margin-top: 20px;
+}
+.second_image {
+  width: 60%;
+  height: 258px;
+  border-radius: 16px;
+  background-image: url("../Assets/background-store-wind.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  /* position: relative; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+}
+.secondPictureContentDiv {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 24px;
+}
+.pax-com p {
+  width: 68px;
+  height: 19px;
+  color: #191919;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 31px;
+  margin-top: 31px;
+}
+.off_wide {
+  width: 491px;
+  height: 124px;
+  color: #3041ff;
+  font-family: Neue Machina;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 31px;
+}
+.line-indicator li.slick-active {
+  width: 45px;
+  height: 15px;
+  border-radius: 9px;
+  background: blue !important;
+}
+/* *************************************************************************************************************************** */
+/* DISPENSARY MEDIA QUERY */
+/* *************************************************************************************************************************** */
+@media screen and (max-width: 1100px) {
+  .first_image {
+    display: none;
+  }
+  .second_image {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 540px) {
+  .off_wide {
+    width: 400px;
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .off_wide {
+    width: 300px;
+    font-size: 40px;
+  }
+}

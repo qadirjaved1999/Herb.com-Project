@@ -1,0 +1,199 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.NavBar {
+  max-width: 100%;
+  margin: 0 auto;
+  margin-top: 60px;
+  margin-bottom: 63px;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #191919;
+}
+.HerbLogo {
+  width: 20%;
+  display: inline-block;
+}
+
+.nav-items {
+  width: 66%;
+  display: flex;
+  gap: 0px 24px;
+  align-items: center;
+  justify-content: flex-end;
+  border-bottom: 3px solid #595959;
+}
+.nav-items li {
+  list-style: none;
+}
+.nav-items li a {
+  text-decoration: none;
+}
+.searchBar {
+  max-width: 30%;
+  flex-grow: 1;
+}
+.searchBar input {
+  width: 100%;
+  padding: 10px 37px 10px 20px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  background-color: #2e2e2e;
+  color: white;
+}
+::-webkit-input-placeholder {
+  color: white;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
+}
+.searchIcon {
+  position: relative;
+}
+.icon {
+  position: absolute;
+  font-size: 28px;
+  color: white;
+  right: 13px;
+  bottom: 3px;
+}
+.anoherSerach {
+  display: none;
+  font-size: 28px;
+  font-weight: 700;
+  background-color: blue;
+  border-radius: 50px;
+  color: white;
+}
+.NavToggle {
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 2.7rem;
+}
+.horizentalLine {
+  float: right;
+  width: 100%;
+  max-width: 63%;
+  height: 2px;
+  margin-right: 180px;
+  background-color: gray;
+}
+/* *************************************************************************************************************************** */
+/* NAVBAR MEDIA QUERY */
+/* *************************************************************************************************************************** */
+
+@media screen and (min-width: 480px) {
+  .for-mobile {
+    display: none;
+  }
+}
+@media screen and (max-width: 1270px) {
+  .searchBar input {
+    padding: 10px 0px 10px 20px;
+  }
+}
+@media screen and (max-width: 1160px) {
+  .subscribe {
+    display: none;
+  }
+}
+@media screen and (max-width: 998px) {
+  .subscribe {
+    display: none;
+  }
+  .horizentalLine {
+    margin-right: 90px;
+  }
+  .searchBar input {
+    padding-right: 10px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .getCardBtn {
+    display: none;
+  }
+  .nav-items {
+    max-width: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+@media screen and (max-width: 868px) {
+  .searchBar {
+    display: none;
+  }
+  .anoherSerach {
+    display: block;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .HerbLogo img {
+    padding: 0px 0px 0px 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .getCardBtn {
+    display: none;
+  }
+
+  .HerbLogo {
+    margin-left: 0px;
+  }
+  .HerbLogo img {
+    width: 150px;
+    padding: 0px 0px 0px 20px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-items {
+    max-width: 75%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 698px) {
+  .HerbLogo img {
+    width: 150px;
+    padding: 0px 0px 0px 20px;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 582px) {
+  .HerbLogo img {
+    width: 130px;
+    padding: 10px 0px 0px 20px;
+  }
+  .nav-items {
+    width: 75%;
+    gap: 0px 10px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .for-full-screen {
+    display: none;
+  }
+}
+@media screen and (max-width: 430px) {
+  .mainBtn {
+    width: 110px !important;
+  }
+}

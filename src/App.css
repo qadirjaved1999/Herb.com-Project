@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: "Neue Machina";
+  src: local("Neue Machina") url("./Fonts/NeueMachina-Light.otf") format("otf");
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: "Neue Machina";
+  src: local("Neue Machina") url("./Fonts/NeueMachina-Regular.otf")
+    format("otf");
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@font-face {
+  font-family: "Neue Machina";
+  src: local("Neue Machina") url("./Fonts/NeueMachina-Ultrabold.otf")
+    format("otf");
+}
+.MyHomePage {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 15px;
+  overflow: hidden;
+}
+@media screen and (max-width: 1440px) {
+  .MyHomePage {
+    max-width: 1280px;
+    margin: 0 auto;
   }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (max-width: 1275px) {
+  .MyHomePage {
+    max-width: 1116px;
+    margin: 0 auto;
   }
-  to {
-    transform: rotate(360deg);
+}
+@media screen and (max-width: 440px) {
+  .HerbMainHeading {
+    max-width: 30px;
   }
 }

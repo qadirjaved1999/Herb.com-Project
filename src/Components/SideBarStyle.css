@@ -1,0 +1,245 @@
+.side-nav-panel {
+  background: linear-gradient(155.02deg, #f7ffe3, #fff3f3 38.64%, #fff 99.91%),
+    linear-gradient(0deg, #fff, #fff);
+  box-shadow: 1px 0 5px rgba(22, 24, 26, 0.5), 1px 0 3px rgba(7, 8, 10, 0.7);
+  height: 100vh;
+  width: 50%;
+  overflow: scroll;
+  left: 50%;
+  position: fixed;
+  top: 0px;
+  z-index: 99999;
+  padding-left: 100px;
+  padding-bottom: 80px;
+  padding-top: 80px;
+  /* transform: translateY(100px);
+  transition-duration: 3s; */
+}
+.crossBtn {
+  margin: 0 auto;
+  max-width: 375px;
+}
+.mobileModeLogo {
+  display: none;
+}
+.sideNavCrossSvg {
+  text-align: right;
+  margin-bottom: 50px;
+}
+.sideDrawerCross {
+  cursor: pointer;
+}
+.side-nav-upper {
+  display: flex;
+  justify-content: space-evenly;
+}
+.leftSideNav,
+.rightSideNav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+}
+.leftSideHeading,
+.rightSideHeading {
+  color: #3041ff;
+  font-family: Source Code Pro;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.leftLowerNav,
+.rightLowerNav {
+  padding-top: 50px;
+}
+.leftLowerLinks {
+  cursor: pointer;
+  letter-spacing: 1px;
+  list-style: none;
+  padding-bottom: 5px;
+}
+.lowerLeftLinks {
+  color: #3041ff;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  height: 100%;
+  padding-top: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+}
+.leftLowerLinks {
+  cursor: pointer;
+  letter-spacing: 1px;
+  list-style: none;
+  padding-bottom: 5px;
+}
+.lowerLeftLinks {
+  color: #3041ff;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  height: 100%;
+  padding-top: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+}
+.leftSideNav,
+.rightSideNav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+}
+.leftSideHeading,
+.rightSideHeading {
+  color: #3041ff;
+  font-family: Source Code Pro;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.leftLowerNav,
+.rightLowerNav {
+  padding-top: 50px;
+}
+.rightLowerLinks {
+  cursor: pointer;
+  letter-spacing: 1px;
+  list-style: none;
+  padding-bottom: 5px;
+}
+.lowerRightLinks {
+  color: #3041ff;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  height: 100%;
+  padding-top: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+}
+.rightLowerLinks {
+  cursor: pointer;
+  letter-spacing: 1px;
+  list-style: none;
+  padding-bottom: 5px;
+}
+.lowerRightLinks {
+  color: #3041ff;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  height: 100%;
+  padding-top: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+}
+.rightFMDLowerLinks {
+  display: none;
+}
+.lowerRightLinks {
+  color: #3041ff;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  height: 100%;
+  padding-top: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+}
+.rightLowerLinks {
+  cursor: pointer;
+  letter-spacing: 1px;
+  list-style: none;
+  padding-bottom: 5px;
+}
+.lowerRightLinks {
+  color: #3041ff;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  height: 100%;
+  padding-top: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+}
+.side-nav-lower {
+  margin: 0 auto;
+  max-width: 375px;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+.sideNavLowerHeading,
+.top-nav a:link,
+.top-nav a:visited {
+  color: #3041ff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.top-nav a:link {
+  font-size: 14px;
+  font-weight: 600;
+}
+.top-nav li {
+  list-style: none;
+}
+.top-nav-1 li {
+  text-decoration: none;
+  list-style: none;
+}
+.top-nav-1 li a {
+  text-decoration: none;
+}
+.sideNavLowerHeading {
+  font-family: Source Code Pro;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 300;
+  letter-spacing: 1.5px;
+  padding-bottom: 15px;
+}
+.sideNarLogoSvgs {
+  display: flex;
+  justify-content: space-between;
+  max-width: 275px;
+  padding-bottom: 30px;
+}
+.threadsSiderBar {
+  padding: 1.5px;
+}
+.threads,
+.threadsSiderBar {
+  background: #3041ff;
+  border-radius: 50%;
+  height: 22px;
+  width: 25px;
+}
+/* *************************************************************************************************************************** */
+/* NAVBAR MEDIA QUERY */
+/* *************************************************************************************************************************** */
+@media screen and (max-width: 769px) {
+  .side-nav-panel {
+    width: 100%;
+    left: 0px;
+  }
+  .mobileModeLogo {
+    display: block;
+    display: inline-block;
+    margin-top: 10px;
+  }
+}

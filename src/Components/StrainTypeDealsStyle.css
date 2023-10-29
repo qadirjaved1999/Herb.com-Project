@@ -1,0 +1,78 @@
+.strain-type-main-div {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.strain-type-main-div {
+  max-width: 55%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.strainTypeOne {
+  width: 179px;
+  height: 179px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.strainTypeTwo {
+  width: 179px;
+  height: 179px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.strainTypeThree {
+  width: 179px;
+  height: 179px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.IndicaImage {
+  display: flex;
+  /* width: 179px; */
+  padding: 17px 22.5px 7px 22.5px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  background: radial-gradient(50% 50% at 50% 50%, #ff6b6b 0%, #3041ff 100%),
+    #3041ff;
+}
+.IndicaBtn {
+  display: flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  color: #daf98c;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.28px;
+  text-decoration-line: underline;
+  text-transform: uppercase;
+}
+/* *************************************************************************************************************************** */
+/* STRAIN MEDIA QUERY */
+/* *************************************************************************************************************************** */
+@media screen and (max-width: 750px) {
+  .strain-type-main-div {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 420px) {
+  .strain-type-main-div {
+    max-width: 100%;
+    justify-content: center;
+  }
+}
